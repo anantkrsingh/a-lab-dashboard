@@ -1,0 +1,82 @@
+/* globel style */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Typography */
+.h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.h3 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #233484;
+  margin: 0;
+}
+
+.h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0;
+}
+
+.p {
+  color: #8d8d8d;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.icon-medium {
+  font-weight: bold;
+  font-size: 25px;
+  color: #8d8d8d;
+}
+
+.icon-small {
+  font-weight: bold;
+  font-size: 20px;
+  color: #8d8d8d;
+  margin-right: 5px;
+}
+
+td {
+  padding: 20px;
+  width: 5%;
+}
+
+.iframe ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+.iframe #sizer {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  display: none !important;
+}
+
+#sizer  {
+  display: none;
+}
+
+/* over-write css */
+.Calendar{
+  box-shadow: none !important;
+  border-radius: 15px !important;
+  border: 1px solid #ededed;
+}

@@ -1,0 +1,36 @@
+.inp {
+  width: 120px;
+  padding: 5px;
+  border: 2px solid rgb(44, 44, 44);
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.v1 {
+  position: absolute;
+  top: 145px;
+  left: 3px;
+  width: 80px;
+}
+.v2 {
+  position: absolute;
+  top: 145px;
+  right: 3px;
+  width: 80px;
+}
+.z1 {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+}
+.z2 {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+.z3 {
+  position: absolute;
+  top: 145px;
+  right: 180px;
+}
